@@ -1,6 +1,6 @@
-export default function Main(){
+export default function Main(props){
     return (
-        <main>
+        <main className={props.darkMode ? "dark" : ""}>
             <h2 className="main-title">Fun facts about React</h2>
             <ul className="main-list">
                 <li>Was first released in 2013</li>
